@@ -40,7 +40,9 @@ include "config/koneksi.php"
           <li class="nav-item">
             <a class="nav-link" href="#contacs">Contact</a>
           </li>
-
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="inputproject.php">Input Project</a>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -69,13 +71,13 @@ include "config/koneksi.php"
       </div>
 
       <div class="row justify-content-center fs-5 text-center">
+
         <div class="col-md-4">
           <p>
-            about saya 1
+            detail
           </p>
 
         </div>
-
 
       </div>
 
@@ -89,11 +91,7 @@ include "config/koneksi.php"
   </section>
   <!-- akhir aboutme  -->
   <!-- project -->
-  <?php
 
-
-
-  ?>
   <section id="projects">
     <div class="container">
       <div class="row text-center mb-3">
@@ -105,21 +103,19 @@ include "config/koneksi.php"
 
         <div class="col-md-4 mb-3">
           <div class="card">
-            <img src="asset/gambar" class="card-img-top" height="200px" alt="gambar">
+            <img src="asset/project2.png" class="card-img-top" height="200px" alt="gambar">
             <div class="card-body">
               <h5 class="card-title">
-                judul
+                Simple Ecoomerce
               </h5>
               <p class="card-text">
-                isi
+                merupakan projek yang saya lakukan di Cv Mediatama Web Programming
               </p>
 
-              <a class="btn btn-primary" href="ubah.php?idproject=<?= $data['id']; ?>">Edit</a>
-              <a class="btn btn-danger" href="hapus.php?idproject=<?= $data['id']; ?>">Hapus</a>
+
             </div>
           </div>
         </div>
-        <?php endwhile; ?>
 
         <!-- <div class="col-md-4 mb-3">
           <div class="card">

@@ -40,9 +40,9 @@ include "config/koneksi.php"
           <li class="nav-item">
             <a class="nav-link" href="#contacs">Contact</a>
           </li>
-          <li class="nav-item">
+          <--<li class="nav-item">
             <a class="nav-link" href="inputproject.php">Input Project</a>
-          </li>
+          </li>-->
         </ul>
       </div>
     </div>
@@ -78,8 +78,9 @@ include "config/koneksi.php"
         while ($datasaya = mysqli_fetch_array($hasilku)):
           ?>
           <div class="col-md-4">
-            <p><?= $datasaya['detail']; ?></p>
-            <a class="btn btn-primary" href="ubahabout.php?idabout=<?= $datasaya['id']; ?>">Edit</a>
+            <p> ini Adalah Portofolio sederhana saya</p>
+            <--<p><?= $datasaya['detail']; ?></p> -->
+            <--<a class="btn btn-primary" href="ubahabout.php?idabout=<?= $datasaya['id']; ?>">Edit</a> -->
           </div>
         <?php endwhile; ?>
       </div>
